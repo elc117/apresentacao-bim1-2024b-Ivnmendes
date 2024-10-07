@@ -48,6 +48,7 @@ countObjectsForClass :: Int -> [Int] -> Int
 ~~~
 
 12. Resolva o exercício 11 usando lambda:
+
 Inicialmente tentei resolver usando a função fold que percorre uma lista e aplica uma função acumulativamente em um sentido (esquerda-direita ou direita-esquerda), retornando um valor. Porém, me atrapalhei um pouco para usar a condição de contar somente quando igual a classe desejada. Por fim, resolvi fazer utilizando um length em uma lista filtrada.
 
 ~~~
